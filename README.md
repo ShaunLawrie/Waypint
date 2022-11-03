@@ -121,5 +121,27 @@ Now the version at http://localhost:3000/ has been rolled back, note that becaus
 
 🙏🐳
 
+# Bonus
+Try deploy to Google Cloud Platform
+```pwsh
+deploy {
+  use "google-cloud-run" {
+    project  = "your-gcp-project-name"
+    location = "australia-southeast1"
+
+    capacity {
+      memory                     = 256
+      cpu_count                  = 2
+      max_requests_per_container = 10
+      request_timeout            = 300
+    }
+  }
+}
+
+release {
+  use "google-cloud-run" {}
+}
+```
+
 ### This was based on the documentation at:
 https://developer.hashicorp.com/waypoint/tutorials/get-started-kubernetes/get-started-kubernetes
