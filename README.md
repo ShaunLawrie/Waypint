@@ -2,6 +2,12 @@
 
 This is my speed guide for deploying a dotnet core application with waypoint, progressing from deploying straight to docker to deploying staged releases in kubernetes with a local service load balancer to represent "prod".
 
+# Intro
+👋 I'm Shaun Lawrie from PartsTrader where I'm the Platform Engineering Lead.  
+📈 PartsTrader is a company that provides an online marketplace where repairers can efficiently provision parts for vehicle collision repairs.  
+☁️ I'm currently using a mixture of tooling for AWS, Azure and on-prem tied together with GitHub Actions, Terraform, Puluma, Lambdas, Octopus Deploy...   
+🐋 This demo will be a scary live demo using Docker Desktop/Kubernetes and Waypoint tethered to Shaun Stuart's phone internet.   
+
 # Steps
 
 ## Starting with Docker
@@ -144,4 +150,6 @@ release {
 ```
 
 ### This was based on the documentation at:
-https://developer.hashicorp.com/waypoint/tutorials/get-started-kubernetes/get-started-kubernetes
+https://developer.hashicorp.com/waypoint/tutorials/get-started-kubernetes/get-started-kubernetes.  
+
+🪟 I'm a bit of a Windows nerd and have something for vagrant over here https://github.com/hashicorp/vagrant/issues/8384#issuecomment-1228509296
