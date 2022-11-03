@@ -156,4 +156,4 @@ release {
 ### This was based on the documentation at:
 https://developer.hashicorp.com/waypoint/tutorials/get-started-kubernetes/get-started-kubernetes.  
 
-🪟 I'm a bit of a Windows nerd and have something for vagrant over here https://github.com/hashicorp/vagrant/issues/8384#issuecomment-1228509296
+🪟🙏 I'm a bit of a Windows nerd and have something for vagrant over here to check out, thumb it up if you actually use hyper-v https://github.com/hashicorp/vagrant/issues/8384#issuecomment-1228509296
