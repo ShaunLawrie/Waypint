@@ -7,7 +7,8 @@ This is my speed guide for deploying a dotnet core application with waypoint, pr
 
 📈 PartsTrader is a company that provides an online marketplace where repairers can efficiently provision parts for vehicle collision repairs.  
 
-☁️ I'm currently using a mixture of tooling for AWS, Azure and on-prem tied together with GitHub Actions, Terraform, Puluma, Lambdas, Octopus Deploy...   
+☁️ I'm currently using a mixture of tooling for AWS, Azure and on-prem tied together with:  
+   GitHub Actions, Terraform, Puluma, Lambdas, Octopus Deploy...   
 
 🐋 This demo will be a scary live demo using Docker Desktop/Kubernetes and Waypoint over an unreliable internet connection...   
 
