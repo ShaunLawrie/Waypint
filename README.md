@@ -5,7 +5,7 @@ This is my speed guide for deploying a dotnet core application with Hashicorp wa
 I'll be progressing from deploying to Docker Desktop for local development to:
  - Deploying staged releases in Kubernetes on Docker Desktop for a more flexible local development setup.
  - AWS ECS to simulate deploying to a shared QA environment.
- - Google Cloud Run to show the portability and simplicity afforded by using Waypoint rather than hand crafting Yaml.
+ - Google Cloud Run & AWS ECS to show the portability and simplicity afforded by using the opinionated Waypoint rather than hand crafting Yaml.
 
 # Intro
 👋 I'm Shaun Lawrie from PartsTrader where I'm the Platform Engineering Lead.  
