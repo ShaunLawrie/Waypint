@@ -1,6 +1,11 @@
-# Waypoint
+# Waypint 🍺
 
-This is my speed guide for deploying a dotnet core application with waypoint, progressing from deploying straight to docker to deploying staged releases in kubernetes with a local service load balancer to represent "prod".
+This is my speed guide for deploying a dotnet core application with Hashicorp waypoint.  
+
+I'll be progressing from deploying to Docker Desktop for local development to:
+ - Deploying staged releases in Kubernetes on Docker Desktop for a more flexible local development setup.
+ - AWS ECS to simulate deploying to a shared QA environment.
+ - Google Cloud Run to show the portability and simplicity afforded by using Waypoint rather than hand crafting Yaml.
 
 # Intro
 👋 I'm Shaun Lawrie from PartsTrader where I'm the Platform Engineering Lead.  
