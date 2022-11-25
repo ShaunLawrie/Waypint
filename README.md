@@ -7,6 +7,10 @@ I'll be progressing from deploying to Docker Desktop for local development to:
  - AWS ECS to simulate deploying to a shared QA environment.
  - Google Cloud Run & AWS ECS to show the portability and simplicity afforded by using the opinionated Waypoint rather than hand crafting Yaml.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/13159458/203877303-06a91c2d-3791-4f1e-961a-7fdf3e7bdfad.png" />
+</p>
+
 # Intro
 👋 I'm Shaun Lawrie from PartsTrader where I'm the Platform Engineering Lead.  
 
