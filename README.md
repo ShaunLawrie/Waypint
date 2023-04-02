@@ -1,3 +1,7 @@
+> **Warning**  
+> These were my "slides" for an old presentation at the Hashicorp Meetup in Wellington.  
+> They will be out of date for Waypoint by the time you read this.
+
 # Waypint 🍺
 
 This is my speed guide for deploying a dotnet core application with Hashicorp waypoint.  
